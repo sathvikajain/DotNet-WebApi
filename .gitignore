@@ -1,0 +1,31 @@
+# Ignore Visual Studio temporary files, build results, and user-specific files
+.vs/
+*.user
+*.suo
+
+# Build results
+bin/
+obj/
+build/
+
+# Rider & JetBrains
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Logs
+*.log
+
+# Publish
+.publish/
+
+# Others
+*.dbmdl
+*.bak
+*.pdb
+*.vscode/
