@@ -1,0 +1,330 @@
+[
+  {
+    "ContainingType": "ASP.NETWebAPI.Controllers.PersonController",
+    "Method": "SimpleGet",
+    "RelativePath": "api/Person",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP.NETWebAPI.Controllers.PersonController",
+    "Method": "GreetFromRoute",
+    "RelativePath": "api/Person/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP.NETWebAPI.Controllers.PersonController",
+    "Method": "UpdatePartial",
+    "RelativePath": "api/Person/{name}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "partialUpdate",
+        "Type": "ASP.NETWebAPI.Models.PersonInfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP.NETWebAPI.Controllers.PersonController",
+    "Method": "Delete",
+    "RelativePath": "api/Person/{name}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP.NETWebAPI.Controllers.PersonController",
+    "Method": "AddFromUrlAndQuery",
+    "RelativePath": "api/Person/addingdataurlandquery/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "age",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP.NETWebAPI.Controllers.PersonController",
+    "Method": "CreateFromBody",
+    "RelativePath": "api/Person/creatingthroughbody",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "person",
+        "Type": "ASP.NETWebAPI.Models.PersonInfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP.NETWebAPI.Controllers.PersonController",
+    "Method": "GreetFromQuery",
+    "RelativePath": "api/Person/fromquery",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP.NETWebAPI.Controllers.PersonController",
+    "Method": "Update",
+    "RelativePath": "api/Person/update/{name}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedPerson",
+        "Type": "ASP.NETWebAPI.Models.PersonInfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP.NETWebAPI.Controllers.StudentController",
+    "Method": "AddStudent",
+    "RelativePath": "api/Student/addstudent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "student",
+        "Type": "ASP.NETWebAPI.Models.StudentInfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP.NETWebAPI.Controllers.StudentController",
+    "Method": "GetAllStudents",
+    "RelativePath": "api/Student/AllStudents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ASP.NETWebAPI.Models.StudentInfo, ASP.NETWebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ASP.NETWebAPI.Controllers.StudentController",
+    "Method": "DeleteStudentInfoById",
+    "RelativePath": "api/Student/deletebyId",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ASP.NETWebAPI.Models.StudentInfo, ASP.NETWebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ASP.NETWebAPI.Controllers.StudentController",
+    "Method": "GetAllStudents",
+    "RelativePath": "api/Student/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ASP.NETWebAPI.Models.StudentInfo, ASP.NETWebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ASP.NETWebAPI.Controllers.StudentController",
+    "Method": "GetStudentsWithMarksAbove",
+    "RelativePath": "api/Student/GetStudentsWithMarksAbove",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mark",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ASP.NETWebAPI.Models.StudentInfo, ASP.NETWebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ASP.NETWebAPI.Controllers.StudentController",
+    "Method": "GetStudentById",
+    "RelativePath": "api/Student/student/{studentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ASP.NETWebAPI.Models.StudentInfo",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ASP.NETWebAPI.Controllers.StudentController",
+    "Method": "GetAllStudents",
+    "RelativePath": "api/Student/students",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ASP.NETWebAPI.Models.StudentInfo, ASP.NETWebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ASP.NETWebAPI.Controllers.StudentController",
+    "Method": "UpdatetheStudentInfo",
+    "RelativePath": "api/Student/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatingstudentinfo",
+        "Type": "ASP.NETWebAPI.Models.StudentInfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP.NETWebAPI.Controllers.StudentController",
+    "Method": "UpdateStudentPartially",
+    "RelativePath": "api/Student/updatemarks/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newMark",
+        "Type": "System.Double",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
